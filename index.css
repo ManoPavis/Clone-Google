@@ -1,0 +1,73 @@
+/*salvar os dados do usuario no local storage.
+salvar a imagem do usuario, o nome, gamil do usuario.*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+  text-decoration: none;
+}
+
+
+.nav-lista{
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+}
+.nav-lista li{
+    margin-left: 32px;
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-lista a:hover{
+  text-decoration: underline;
+}
+nav.bar{
+    
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fff;
+    height: 8vh;
+    
+}
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size: 16px;
+    font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
+    border:none;
+    height:46px;
+    width: 530px;
+    outline: none; 
+    border: none;
+  }
+  
+  #divBusca img{
+    margin-top: 15px;
+    margin-left: 7px;
+    float:left;
+    width: 15px;
+  }
+  
+  #divBusca{
+    box-shadow: 0 0 5px rgb(165, 165, 165); 
+    border-radius:25px;
+    height: 46px;
+    width: 570px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  #logo{
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  
